@@ -1,0 +1,528 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>MedPro Health Providers - The Weekend Admission Specialists</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+ 
+    <link href="assets/css/style_medpro.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+
+
+<script>
+function changeTextBox()
+{
+      var val=$('#position_applied').val();
+      //alert(val);
+
+      if(val==='Others')
+      {
+         $('#position_other').removeAttr("disabled");              
+      }
+      else{
+		  $('#position_other').prop('disabled', true);
+		  $('#position_other').val("");
+	  }
+		
+}
+
+</script>
+ 
+
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    
+</head>
+<body>
+
+  
+<!-- navbar -->  
+<div class="medpro_navbar">
+<div class="container">
+<nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom:0px;">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="padding-top:8px;"><img src="assets/img/medpro_logo_white.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+       <li><a href="about.html">About</a></li>
+<!--        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>-->
+      <li><a href="jobs.html">Find Jobs</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+	  <li class="active"><a class="btn signin_button" href="signin.html">SIGN IN / SIGN UP</a></li>
+      </ul>
+<!--      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>-->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div>
+</div> 
+<!-- /navbar -->
+
+
+
+
+    <div class="container">
+
+        <div class="row" style="margin-top:24px;">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Find Jobs
+                    <small>Work with Us</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Find Jobs</li>
+                </ol>
+            </div>
+
+        </div>
+
+<!--        <div class="row">
+
+            <div class="col-md-6">
+                <img class="img-responsive" src="assets/img/medpro_bldg.jpg" style="width:100%;">
+            </div>
+            <div class="col-md-6">
+                <h2>Welcome to <strong>MedPro Health Providers</strong></h2>
+                <p><span lang="EN"><strong><span lang="EN">MedPro Health Providers</span></strong><span lang="EN"> also provides nursing, therapy, aide and specialty care to the Medicare-covered population throughout Illinois. Medicare home care services are extended to those under a physician&rsquo;s care when the physician orders skilled, intermittent services and when the Medicare recipient is homebound due to illness or injury and cannot leave their residence without considerable taxing effort.</span></span></p>
+                <p><span lang="EN">Our services also include assistance in the arrangement of supplies and equipment required to meet your individual needs. </span><span lang="EN">Our experienced registered nurses will design a care plan that takes into consideration your physical and financial situation. And many of our services are covered by employer group health plans, various government-funded programs, private insurance plans, Medicare or workers compensation.</span></p>
+            </div>
+
+        </div>-->
+
+
+		<div class="row">
+        <div class="col-md-12">
+        	<p><strong>MedPro Health is a state of the art EMR company</strong> with full automation capabilities that provides our clinicians the support they need to deliver better care to their patients by removing the burden of too much paper work.With a fully integrated point of care system which automates all of your required paperwork, our clinician can dedicate their time and energy to the real reason you became a health professional: caring for patients.</p>
+            
+          <p>Here are the advantages of working for MedPro:</p> 
+
+        </div>   
+        </div>
+
+
+		<div class="row">
+        <div class="col-md-6">
+        	<p><strong><i class="fa fa-square"></i> Individualized patient careplans</strong> are automatically generated from the assessment and transfer over to the progress note. Each progress note is patient-specific.</p>
+	
+<p><strong><i class="fa fa-square"></i> Individualized careplans</strong> Standard and customized careplans are automatically   generated from clinical assessment results; Careplans include recommended interventions, outcomes, due dates</p>
+
+<p><strong><i class="fa fa-square"></i> Track progress</strong> of each careplan item. Streamlined tracking of patient's problems; resolved problems are automatically archived, most unstable problems are listed first</p>
+</div>
+        <div class="col-md-6">
+       
+<p><strong><i class="fa fa-square"></i> National Drug Database</strong> Includes product trade name and generic name, dosage form,    routes of administration, active ingredient, interactions, contraindications, side-effects, teaching,    outcomes, and uses</p>
+
+<p><strong><i class="fa fa-square"></i> Transcribe physician orders at the bedside</strong></p>
+
+<p><strong><i class="fa fa-square"></i> Deteriorating status alerts for immediate action</strong></p> 
+
+        </div>   
+        </div>
+
+
+<form method="post">
+
+        <div class="row" style="padding:12px 24px 24px 24px; margin-left:0px; margin-right:0px; margin-top:12px; background-color:#f5f5f5;">      
+        	<div class="col-md-5">
+				<label for="position_applied">Position Applying</label>
+           		<select class="form-control" name="position_applied" id="position_applied" onChange="changeTextBox();" required>
+                	<option>Choose your desired position</option>
+					<option value="RN">RN</option>
+					<option value="LPN">LPN</option>
+					<option value="Physical Therapist">Physical Therapist</option>
+					<option value="Occupational Therapist">Occupational Therapist</option>
+					<option value="Speech Therapist">Speech Therapist</option>                    
+					<option value="Others">Others</option>  
+                </select>
+            </div>
+        	<div class="col-md-4">
+          <label for="position_other">Other Position</label>
+          <input name="position_other" type="text" class="form-control" id="position_other" maxlength="70" required disabled>
+            </div>
+		</div>
+		
+ 
+<h3 style="margin-top:44px;">Personal Information</h3> 
+<hr>
+ 
+        <div class="row form-bottom">
+          <div class="col-sm-3">
+          <label for="lname">Last Name</label>
+          <input name="lname" type="text" class="form-control" id="lname" placeholder="" onBlur="edit()" maxlength="70" required>
+          </div>
+        
+          <div class="col-sm-4">
+          <label for="fname">First Name</label>
+          <input name="fname" type="text" class="form-control" id="fname" placeholder="" maxlength="70"  required>
+          </div>
+        
+          <div class="col-sm-3 col-xs-6">
+          <label for="mname">Middle Name</label>
+          <input name="mname" type="text" class="form-control" id="mname" placeholder="" maxlength="70" required>
+          </div>
+
+          <div class="col-sm-2 col-xs-6">
+          <label for="mname">Gender</label>
+          <input name="mname" type="text" class="form-control" id="mname" placeholder="" maxlength="70" required>
+          </div>
+        </div>
+
+
+
+        
+        <div class="row">
+        
+        	<div class="col-md-7">
+                <label for="address">Address</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+
+        	<div class="col-md-3">
+                <label for="us_state">State</label>
+           		<select class="form-control" name="us_state">
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+</select>
+            </div>
+
+        	<div class="col-md-2">
+                <label for="address">Zip</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>  
+        
+        </div>
+
+
+
+
+        <div class="row">      
+        	<div class="col-md-4">
+                <label for="address">Email</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-2">
+                <label for="address">Date of Birth</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-3">
+                <label for="address">Home Phone</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-3">
+                <label for="address">Mobile Phone</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+
+		</div>
+
+
+
+<h3>Work Experience</h3>
+<hr>
+
+
+        <div class="row">      
+        	<div class="col-md-4">
+                <label for="address">Company Name</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-3">
+                <label for="address">Position</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-3">
+                <label for="address">Date of Employment</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-2">
+                <label for="address">Salary</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+<h3>Education</h3> 
+<hr>
+
+        <div class="row">      
+        	<div class="col-md-4">
+                <label for="address">Name of College</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-2">
+                <label for="address">Inclusive Dates</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-4">
+                <label for="address">Name of High School</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+        	<div class="col-md-2">
+                <label for="address">Inclusive Dates</label>
+           		<input name="address" type="text" class="form-control" id="address" placeholder="" maxlength="70"  required>
+            </div>
+		</div>
+
+<hr>
+
+        <div class="row">      
+        	<div class="col-md-6">
+                <label for="address">Special Skills (List All)</label>
+           		<textarea class="form-control" id="address" rows="4" required></textarea>
+            </div>
+        	<div class="col-md-6">
+                <label for="address">Languages & Dialects Spoken (List All)</label>
+           		<textarea class="form-control" id="address" rows="4" required></textarea>
+            </div>
+
+		</div>
+
+
+        <div class="row">
+            <p>&nbsp;</p>
+        </div>
+
+        <div class="row">      
+        	<div class="col-md-4 pull-right">
+<input name="submit" class="form-control btn btn-warning" type="submit" value="Submit Application">
+            </div>
+
+		</div>
+
+
+</form>
+
+
+        <div class="row">
+            <p>&nbsp;</p>
+        </div>
+
+    </div><!-- /CONTAINER -->
+
+
+
+
+
+
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>MedPro Health Providers, LLC<br>
+                            (708) 240-8088<br>
+								<a href="mailto:#">hq@medprohealthproviders.com</a><br>
+								<br>
+								16325 South Harlem Avenue Suite 350<br>
+Tinley Park, IL 60477 
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow Us</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+<!--								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>-->
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Insurances We Take</h3>
+						<div class="widget-body">
+                        
+                        <img src="assets/img/logo_insurances_nqa.png" class="img-responsive img-rounded insurances_logo"> &nbsp;			
+                        <img src="assets/img/logo_insurances_bbb.png" class="img-responsive insurances_logo">&nbsp; 
+                        <img src="assets/img/logo_insurances_wellcare.png" class="img-responsive img-rounded insurances_logo"> &nbsp;<img src="assets/img/logo_insurances_illinicare.png" alt="" class="img-responsive img-rounded insurances_logo"> &nbsp;<img src="assets/img/logo_insurances_harmony.png" alt="" class="img-responsive img-rounded insurances_logo">
+
+				        </div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-left">
+								Copyright &copy; 2015, MedPro Health Providers. Designed by <a href="http://dengbalaga.github.io" rel="designer">Dengbalaga</a> 
+							</p>
+						</div>
+					</div>
+
+
+				<div class="col-md-6 widget">
+						<div class="widget-body">
+							<!--<p class="simplenav">
+								<a href="#">Home</a> | 
+								<a href="about.html">About</a> |
+								<a href="sidebar-right.html">Sidebar</a> |
+								<a href="contact.html">Contact</a> |
+								<b><a href="signup.html">Sign up</a></b>
+							</p>-->
+                            <p class="text-right"><a href="#">Back to top</a></p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html>
