@@ -1,901 +1,376 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
-<head>
-
-<!-- Meta Tags -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>Dennis Balaga | Dengbalaga's Portfolio</title>   
-
-<meta name="description" content="Deng Balaga Portfolio" /> 
-
-<!-- Mobile Specifics -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="HandheldFriendly" content="true"/>
-<meta name="MobileOptimized" content="320"/>   
-
-<!-- Mobile Internet Explorer ClearType Technology -->
-<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
-
-<!-- Bootstrap -->
-<link type="text/css" href="include/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Main Style -->
-<link href="include/css/main.css" rel="stylesheet">
-
-<!-- Additional Style -->
-<link href="include/css/main-add.css" rel="stylesheet">
-
-<!-- Supersized -->
-<link href="include/css/supersized.css" rel="stylesheet">
-<link href="include/css/supersized.shutter.css" rel="stylesheet">
-
-<!-- FancyBox -->
-<link href="include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-
-<!-- Font Icons -->
-<link href="include/css/fonts.css" rel="stylesheet">
-
-<!-- Shortcodes -->
-<link href="include/css/shortcodes.css" rel="stylesheet">
-
-<!-- Responsive -->
-<link href="include/css/bootstrap-responsive.min.css" rel="stylesheet">
-<link href="include/css/responsive.css" rel="stylesheet">
-
-<!-- Supersized -->
-<link href="include/css/supersized.css" rel="stylesheet">
-<link href="include/css/supersized.shutter.css" rel="stylesheet">
-
-<!-- Google Font -->
-<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
-
-<!-- Fav Icon -->
-<link rel="shortcut icon" href="include/img/icon.ico">
-
-<link rel="apple-touch-icon" href="include/img/icon.png">
-<link rel="apple-touch-icon" sizes="114x114" href="include/img/icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="include/img/icon.png">
-<link rel="apple-touch-icon" sizes="144x144" href="include/img/icon.png">
-
-<!-- Modernizr -->
-<script src="include/js/modernizr.js"></script>
-
-<!-- Analytics -->
-<script type="text/javascript">
-//
-//  var _gaq = _gaq || [];
-//  _gaq.push(['_setAccount', 'Insert Your Code']);
-//  _gaq.push(['_trackPageview']);
-//
-//  (function() {
-//    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-//    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-//    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-//  })();
-//
-</script>
-<!-- End Analytics -->
-
-</head>
-
-
-<body>
-
-<!-- This section is for Splash Screen -->
-<div class="ole">
-<section id="jSplash">
-	<div id="circle"></div>
-</section>
-</div>
-<!-- End of Splash Screen -->
-
-<!-- Homepage Slider -->
-<div id="home-slider">	
-    <div class="overlay"></div>
-
-    <div class="slider-text">
-    	<div id="slidecaption"></div>
-    </div>   
-	
-	<div class="control-nav">
-        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-        <ul id="slide-list"></ul>
-        
-        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
-    </div>
-</div>
-<!-- End Homepage Slider -->
-
-<!-- Header -->
-<header>
-    <div class="sticky-nav">
-    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-        
-        <div id="logo">
-        	<a id="goUp" href="#home-slider" title="HelloDeng | Dennis Balaga's Porfolio">Dengbalaga's Portfolio</a>
-        </div>
-        
-        <nav id="menu">
-        	<ul id="menu-nav">
-            	<li class="current"><a href="#home-slider">Home</a></li>
-                <li><a href="#work">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#social-area">Contact</a></li>
-            </ul>
-        </nav>
-        
-    </div>
-</header>
-<!-- End Header -->
-
-<!-- Our Work Section -->
-<div id="work" class="page">
-	<div class="container">
-    	<!-- Title Page -->
-        <div class="row">
-            <div class="span12">
-                <div class="title-page">
-                    <h2 class="title">Portfolio</h2>
-                    <h3 class="title-description">Check Out My Latest Projects</h3>
-                    These are the files that i still have on my laptop. Others are already from outerspace.
-                </div>
-            </div>
-        </div>
-        <!-- End Title Page -->
-        
-        <!-- Portfolio Projects -->
-        <div class="row">
-        	<div class="span3">
-            	<!-- Filter -->
-                <nav id="options" class="work-nav">
-                    <ul id="filters" class="option-set" data-option-key="filter">
-                    	<li class="type-work">Type of Work</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".web">Web</a></li>
-                        <li><a href="#filter" data-option-value=".design">Design</a></li>
-                        <li><a href="#filter" data-option-value=".mobile">Mobile</a></li>
-                        <li><a href="#filter" data-option-value=".photography">Photography</a></li>
-                        <li><a href="#filter" data-option-value=".video">Video</a></li>
-                    </ul>
-                </nav>
-                <!-- End Filter -->
-            </div>
-            
-            <div class="span9">
-            	<div class="row">
-                	<section id="projects">
-                    	<ul id="thumbs">
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 mobile">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="SCOPE Lite Mobile App" href="include/img/work/full/image-15-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-15.jpg" alt="Personality Evaluator with Augmented Reality App available on Android and iOS devices">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 mobile">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Be The Hero Mobile App" href="include/img/work/full/image-14-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-14.jpg" alt="Augmented Reality App available on android devices">
-                            </li>
-                        	<!-- End Item Project -->
-
-                        
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="STI 31st Anniversary" href="include/img/work/full/image-01-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-01.jpg" alt="http://www.anniversary.sti.edu">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Mergence Global" href="include/img/work/full/image-02-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-02.jpg" alt="http://www.mergenceglobal.com">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Baler - Landscape Photography" href="include/img/work/full/image-03-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-03.jpg" alt="A shot from Raymond Cruz Landscape photography workshop">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Peregrine Development International" href="include/img/work/full/image-08-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-08.jpg" alt="http://www.peregrinedc.com">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FPPF" href="include/img/work/full/image-04-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-04.jpg" alt="One of my entry shots during my workshop at FPPF.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Bells of Sorrow" href="include/img/work/full/image-09-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-09.jpg" alt="A non-profit site which aims to get back the Bells of Balangiga">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FPPF" href="include/img/work/full/image-06-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-06.jpg" alt="An entry shot from my FPPF worshop experimenting on natural / ambient light">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="AMCHAM BOP" href="include/img/work/full/image-07-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-07.jpg" alt="A project of American Chamber of Commerce">
-                            </li>
-                        	<!-- End Item Project -->
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ABS-CBN Trade Launch" href="include/img/work/full/image-12-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-12.jpg" alt="Scope of Work: HTML | CSS | Javascript <br>An ABS-CBN presentation of new shows via browser at the Tent Global City">
-                            </li>
-                        	<!-- End Item Project -->	
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ICARES" href="include/img/work/full/image-13-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-13.jpg" alt="SCOPE of Work: Design | HTML | CSS | Javascript<br> A job placement assistance portal for STI students">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FPPF" href="include/img/work/full/image-05-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-05.jpg" alt="One of my entry shots during my workshop at FPPF.">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="APO Production. Inc." href="include/img/work/full/image-10-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-10.jpg" alt="Scope of Work: Design & Development<br>A government site with custom plugins">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="The Change I Want to See Begins in Me" href="include/img/work/full/image-11-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-11.jpg" alt="An intro video for STI's Mr. & Ms. STI<br>YouTube Link: http://www.youtube.com/watch?v=3vXHpPk1aWw
-">
-                            </li>
-                        	<!-- End Item Project -->
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="STI.EDU" href="include/img/work/full/image-19-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-19.jpg" alt="http://www.sti.edu (2008 version)">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="video" title="US Philippines Society Video" href="include/img/work/full/image-28-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-28.jpg" alt="YouTube Link: <a href=http://www.youtube.com/watch?v=NiWgodLVajs target=_blank>http://www.youtube.com/watch?v=NiWgodLVajs</a>
-">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clark Aviation Conference" href="include/img/work/full/image-17-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-17.jpg" alt="Clark Aviation Conference with the theme Reshaping Philippine Aviation The Aerotropolis Concept">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ABBA Perssonnel Services, Inc." href="include/img/work/full/image-20-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-20.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="STI Prep School, Grade School, High School" href="include/img/work/full/image-18-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-18.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Universal Worker, Inc." href="include/img/work/full/image-16-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-16.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 web">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Voice of the Youth Oratorical Competition" href="include/img/work/full/image-21-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-21.jpg" alt="1st Voice of the Youth with the theme Change i want to see begins in me: Becoming the New Filipino">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Interactive CD Cover" href="include/img/work/full/image-22-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-22.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-						<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="video" title="NYC Launch Video" href="include/img/work/full/image-29-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-29.jpg" alt="YouTube Link: <a href=http://www.youtube.com/watch?v=ZnY8--bbRL4 target=_blank>http://www.youtube.com/watch?v=ZnY8--bbRL4</a>
-">
-                            </li>
-                        	<!-- End Item Project --> 
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Music Heals T-shirt" href="include/img/work/full/image-23-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-23.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Innov8 Digital Magazine" href="include/img/work/full/image-24-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-24.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="NYC T-shirt" href="include/img/work/full/image-25-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-25.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                           	<a class="hover-wrap fancybox" data-fancybox-group="video" title="Events AVP" href="include/img/work/full/image-30-full.jpg">
-                              
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-30.jpg" alt="YouTube Link: <a href=http://www.youtube.com/watch?v=9YvpxCzCPwM target=_blank>http://www.youtube.com/watch?v=9YvpxCzCPwM</a>
-">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="14th NYC CD Cover & Brochure" href="include/img/work/full/image-26-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-26.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Yearbook Design" href="include/img/work/full/image-27-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="include/img/work/thumbs/image-27.jpg" alt="">
-                            </li>
-                        	<!-- End Item Project -->
-
-
-
-
-	
-
-
-
-
-
-
-                      </ul>
-                    </section>
-                    
-            	</div>
-            </div>
-        </div>
-        <!-- End Portfolio Projects -->
-    </div>
-</div>
-<!-- End Our Work Section -->
-
-<!-- About Section -->
-<div id="about" class="page-alternate">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>MedPro Health Providers - The Weekend Admission Specialists</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+ 
+    <link href="assets/css/style_medpro.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    
+ </head>
+  <body>
+  
+<!-- navbar -->  
+<div class="medpro_navbar">
 <div class="container">
-    <!-- Title Page -->
+<nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom:0px;">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="padding-top:8px;"><img src="assets/img/medpro_logo_white.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+       <li><a href="about.html">About</a></li>
+<!--        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>-->
+      <li><a href="jobs.html">Find Jobs</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+	  <li class="active"><a class="btn signin_button" href="signin.html">SIGN IN / SIGN UP</a></li>
+
+      </ul>
+<!--      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>-->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div>
+</div> 
+<!-- /navbar -->
+ 
+<!-- carousel --> 
+<div class="medpro_carousel">
     <div class="row">
-        <div class="span12">
-            <div class="title-page">
-                <h2 class="title">About Me</h2>
-                <h4>Hi! My name is Dennis Balaga. I am a Web graphic designer with a passion for art, <br>
-                web standards, music, video, & photography.</h4>
-                <p>Other than work? Well, I like to watch movies, travel & eat, upgrade my Clash of Clans account, play with my two daughters, and just enjoy life :)</p>
-</div>
-        </div>
+        <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 
-            	<h3 class="spec text-center">What I do</h3>
-
-        	<div class="span6">
-<!--            	<h3 class="spec">What I do</h3>-->
-                
-            	<!-- Start Accordion -->
-        		<div class="accordion" id="accordionArea">
-                    <div class="accordion-group">
-                        <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
-                                Web Design & Development
-                                <span class="font-icon-arrow-simple-down"></span>
-                            </a>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img src="assets/img/slider/slider2.jpg" alt="First slide">
+                        <div class="carousel-caption">
+                            <h3>
+                                Second slide</h3>
+                            <p>
+                                Nulla vitae elit libero, a pharetra augue mollis interdum. </p><a class="btn btn-clear btn-sm btn-min-block" href="#" style="margin-bottom:12px;">Apply Now</a>
                         </div>
-<!--                        <div id="oneArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
-                                Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
-                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
-                                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
-                                Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
-                            </div>
-                        </div>-->
+                    </div>
+                    <div class="item active">
+                        <img src="assets/img/slider/slider1.jpg" alt="Second slide">
+                        <div class="carousel-caption">
+                            <h3>
+                                First slide</h3>
+                            <p>
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <div class="">
+                        <a class="btn btn-clear btn-sm btn-min-block" href="#"  style="margin-bottom:12px;">Register</a><!--<a class="btn btn-clear btn-sm btn-min-block"
+                            href="#">Registration</a>--></div>
+                        </div>
                     </div>
                     
-                    <div class="accordion-group">
-                        <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
-                            Print | Graphic Design
-                            <span class="font-icon-arrow-simple-down"></span>
-                        </a>
-                        </div>
-<!--                        <div id="twoArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
-                                Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
-                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
-                                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
-                                Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
-                            </div>
-                        </div>
--->                    </div>
-                    
-                    <div class="accordion-group">
-                        <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">
-                            VIDEO EDITING
-                            <span class="font-icon-arrow-simple-down"></span>
-                        </a>
-                        </div>
-<!--                        <div id="threeArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
-                                Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
-                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
-                                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
-                                Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
-                            </div>
-                        </div>-->
-                    </div>
-
-
-
-            	</div>
-                <!-- End Accordion -->
-        	</div>
-
-
-            <div class="span6">
-<!--            	<h3 class="spec">&nbsp;</h3>-->
-                
-
-            	<!-- Start Accordion -->
-        		<div class="accordion" id="accordionArea">
-                    <div class="accordion-group">
-                        <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
-                                Social Media Marketing
-                                <span class="font-icon-arrow-simple-down"></span>
-                            </a>
-                        </div>
-<!--                        <div id="oneArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
-                                Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
-                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
-                                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
-                                Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
-                            </div>
-                        </div>-->
-                    </div>
-                    
-                    <div class="accordion-group">
-                        <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
-                            SEO | SEM | Analytics
-                            <span class="font-icon-arrow-simple-down"></span>
-                        </a>
-                        </div>
-<!--                        <div id="twoArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
-                                Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
-                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
-                                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
-                                Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
-                            </div>
-                        </div>
--->                    </div>
-                    
-                    <div class="accordion-group">
-                        <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">
-                            Mobile App Design
-                            <span class="font-icon-arrow-simple-down"></span>
-                        </a>
-                        </div>
-<!--                        <div id="threeArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
-                                Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
-                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
-                                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
-                                Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
-                            </div>
-                        </div>-->
-                    </div>
-            	</div>
-                <!-- End Accordion -->
-
-            </div>
-
-
-
-
-    </div>
-    
-    <!-- End Title Page -->
-    
-
-</div>
-</div>
-<!-- End About Section -->
-
-
-<!-- Contact Section -->
-<!--<div id="contact" class="page">
-<div class="container">-->
-    <!-- Title Page -->
-<!--    <div class="row">
-        <div class="span12">
-            <div class="title-page">
-                <h2 class="title">Get in Touch</h2>-->
-<!--                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
---><!--            </div>
-        </div>
-    </div>-->
-    <!-- End Title Page -->
- 
- 
- 
-    
-    <!-- Contact Form -->
-<!--    <div class="row">
-    	<div class="span9">
-        
-        	<form id="contact-form" class="contact-form" action="#">
-            	<p class="contact-name">
-            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
-                </p>
-                <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
-                </p>
-                <p class="contact-message">
-                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
-                </p>
-                <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
-                </p>
-                
-                <div id="response">
-                
                 </div>
-            </form>
-         
-        </div>
-        
-        <div class="span3">
-        	<div class="contact-details">
-        		<h3>Contact Details</h3>
-                <ul>
-                    <li><a href="#">dengbalaga@gmail.com</a></li>
-                    <li>+63 (998) 977-3524 | +63 44 791-0426</li>
-                    <li>
-                        Deng Balaga
-                        <br>
-                        Malolos City, Bulacan
-
-                    </li>
-                </ul>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control"
+                        href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right">
+                        </span></a>
             </div>
-        </div>
-    </div>-->
-    <!-- End Contact Form -->
-<!--</div>
-</div>-->
-<!-- End Contact Section -->
-
-
-
-
-<!-- Twitter Feed -->
-<!--<div id="twitter-feed" class="page-alternate">
-	<div class="container">
-    	<div class="row">
-            <div class="span12">-->
-<!--                <div class="follow">
-                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+            <!-- STATIC TEXT -->
+<!--           <div class="main-text hidden-xs">
+                <div class="col-md-12 text-center">
+                    <h1>Static Headline And Content</h1>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                    <div class="">
+                        <a class="btn btn-clear btn-sm btn-min-block" href="#">Login</a><a class="btn btn-clear btn-sm btn-min-block"
+                            href="#">Registration</a></div>
                 </div>
-                    
-                <div id="ticker" class="query"> 
-                </div>-->
-<!--            </div>
+            </div>-->
+            <!-- /STATIC TEXT -->
         </div>
     </div>
+
+<!--<div id="push">
 </div>-->
-<!-- End Twitter Feed -->
-
-<!-- Socialize -->
-<div id="social-area" class="page">
-	<div class="container">
-    	<div class="row">
-
-        <div class="span12">
-            <div class="title-page">
-                <h2 class="title">Get in Touch</h2>
-<!--                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
--->
-				Email: <a href="#">dengbalaga@gmail.com</a> | Mobile: +63 998 977-3524
-            | PH</div>
-        </div>
-
-
-
-
-            <div class="span12">
-                <nav id="social">
-                    <ul>
-<!--                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>-->
-<!--                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
-                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
-                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>-->
-                        <li><a href="https://www.facebook.com/dengbalaga" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
-<!--                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>-->
-                        <li><a href="ph.linkedin.com/in/dennisbalaga" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-                        <li><a href="mailto:dengbalaga@gmail.com" title="Email Me" target="_blank"><span class="font-icon-social-email"></span></a></li>
-                        <li><a href="http://www.github.com/dengbalaga" title="Follow Me on Github" target="_blank"><span class="font-icon-social-github"></span></a></li>
-                        <li><a href="dennis.balaga" title="Follow Me on Skype" target="_blank"><span class="font-icon-social-skype"></span></a></li>
-                        <li><a href="http://www.soundcloud.com/dengbalaga" title="Follow Me on Soundcloud" target="_blank"><span class="font-icon-social-soundcloud"></span></a></li>
-                        <li><a href="https://www.youtube.com/user/deebalaga" title="Follow Me on Youtube" target="_blank"><span class="font-icon-social-youtube"></span></a></li>                      
-
-<!--                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
-                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>-->
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
 </div>
-<!-- End Socialize -->
-
-<!-- Footer -->
-<footer>
-	<p class="credits">&copy;2015 By <a href="mailto:dengbalaga@gmail.com" title="Deng Balaga | Web Designer, Front-end Developer, Graphic designer">Dennis Balaga</a></p>
-</footer>
-<!-- End Footer -->
-
-<!-- Back To Top -->
-<a id="back-to-top" href="#">
-	<i class="font-icon-arrow-simple-up"></i>
-</a>
-<!-- End Back to Top -->
+<!-- /carousel -->
 
 
-<!-- Js -->
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>--> <!-- jQuery Core -->
-<script src="include/js/jquery.min.js"></script> <!-- jQuery Core Local -->
 
-<script src="include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
-<script src="include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
-<script src="include/js/waypoints.js"></script> <!-- WayPoints -->
-<script src="include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
-<script src="include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
-<script src="include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
-<script src="include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-<script src="include/js/jquery.tweet.js"></script> <!-- Tweet -->
-<script src="include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-<script src="include/js/main.js"></script> <!-- Default JS -->
-<!-- End Js -->
 
-</body>
+
+
+<!-- Services -->
+<div class="medpro_services">
+<div class="container">
+
+	<h2 class="text-center featurette-heading color_green">Services Offered</h2>
+    <p class="text-center" style="width:80%; margin:0 auto;">We are dedicated to ensuring the highest level of independence by providing excellence in home health care. Each of our services is designed to provide the outmost comfort and care to each patient according to their unique needs.</p>
+  <!--  <hr class="divider">-->
+
+	<div class="row" style="margin-top:24px;">
+	<div class="col-lg-2 col-md-4 col-xs-6 text-center">
+    	<i class="fa fa-medkit fa-5x color_green"></i>
+		<h4 class="medpro_services_heading">Home Health Aide</h4>
+	<!--	<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+<!--		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+    </div>
+	<div class="col-lg-2 col-md-4 col-xs-6 text-center">
+    	<i class="fa fa-stethoscope fa-5x color_green"></i>
+		<h4 class="medpro_services_heading">Medical Social Work</h4>
+<!--		<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+<!--		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+    </div>
+	<div class="col-lg-2 col-md-4 col-xs-6 text-center">
+    	<i class="fa fa-user-md fa-5x color_green"></i>
+		<h4 class="medpro_services_heading">Skilled Nursing</h4>
+<!--		<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+<!--		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+    </div>
+	<div class="col-lg-2 col-md-4 col-xs-6 text-center">
+    	<i class="fa fa-wheelchair fa-5x color_green"></i>
+		<h4 class="medpro_services_heading">Physical Therapy</h4>
+	<!--	<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+<!--		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 text-center">
+            <i class="fa fa-commenting fa-5x color_green"></i>
+            <h4 class="medpro_services_heading">Speech Therapy</h4>
+    <!--		<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+    <!--		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+    </div>
+	<div class="col-lg-2 col-md-4 col-xs-6 text-center">
+    	<i class="fa fa-hospital-o fa-5x color_green"></i>
+		<h4 class="medpro_services_heading">Occupational Theraphy</h4>
+<!--		<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+<!--		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+    </div>
+    </div><!-- /row -->
+</div>
+</div>
+<!-- /Services -->
+
+
+
+<div class="row featurette"  style="background-color:#f5f5f5;">
+        <div class="col-md-7 col-md-push-5" style="padding:12px;">
+          <h2 class="featurette-heading color_green">Corporate Headquarters <br><span class="text-muted">Tinley Park, Illinois.</span></h2>
+          <p class="lead" style="margin-top:20px; width:90%;"><img src="assets/img/44988873_scaled_215x215.png" style="width:20%; float:left; margin-right:20px;">MedPro Health Providers is accredited by The Joint Commission which means our organization complies with the highest national standards for safety and quality of care and is committed to continually improving patient care.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img src="assets/img/medpro_bldg.jpg" class="img-responsive" style="width:100%;">
+        </div>
+</div>
+
+
+<!--<div class="container">
+<hr class="divider_long">
+<div class="row featurette">
+        <div class="col-md-7 col-md-push-5" >
+          <h2 class="featurette-heading">Corporate Headquarters <br><span class="text-muted">Tinley Park, Illinois.</span></h2>
+          <p class="lead" style="margin-top:20px;"><img src="assets/img/44988873_scaled_215x215.png" style="width:20%; float:left; margin-right:20px;">MedPro Health Providers is accredited by The Joint Commission which means our organization complies with the highest national standards for safety and quality of care and is committed to continually improving patient care.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img src="assets/img/medpro_bldg.jpg" class="img-responsive" style="width:100%;">
+        </div>
+</div>
+</div>-->
+
+
+
+
+
+<div class="container">
+<!--<hr class="divider_long">-->
+<div class="row featurette" style="margin-top:30px;">
+        <div class="col-md-7 " style="padding:12px;">
+          <h2 class="featurette-heading color_green">MedPro's Online University</h2>
+          <p class="lead" style="margin-top:20px; width:80%;">Available 24 hrs, free of Charge to all MedPro Staff! Get all your CEU's here.</p>
+          <p class="text-left"><a class="btn btn-primary btn-large">View learning site »</a></p>
+        </div>
+        <div class="col-md-5">
+          <img src="assets/img/medpro_university.jpg" class="img-responsive" style="width:100%;">
+        </div>
+</div>
+</div>
+
+
+<!--<div class="medpro_mission">
+
+		<div class="text-center" style="padding:50px; background-color:#01788e; color:#fff;">
+			<i class="fa fa-quote-left fa-2x fa-pull-left"></i><p class="medpro_quote">Our Mission... To provide professional, compassionate care to individuals while maintaining their independence and quality of life in their home or community settings.<i class="fa fa-quote-right fa-2x" style="float:right;"></i></p>
+  		</div>
+
+</div>-->
+
+
+<!--<div class="medpro_partners">
+	<div class="row">
+    	<p>&nbsp;asd</p>
+    </div>
+
+
+</div>-->
+
+
+
+
+
+
+
+
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>MedPro Health Providers, LLC<br>
+                            (708) 240-8088<br>
+								<a href="mailto:#">hq@medprohealthproviders.com</a><br>
+								<br>
+								16325 South Harlem Avenue Suite 350<br>
+Tinley Park, IL 60477 
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow Us</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+<!--								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>-->
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Insurances We Take</h3>
+						<div class="widget-body">
+                        
+                        <img src="assets/img/logo_insurances_nqa.png" class="img-responsive img-rounded insurances_logo"> &nbsp;			
+                        <img src="assets/img/logo_insurances_bbb.png" class="img-responsive insurances_logo">&nbsp; 
+                        <img src="assets/img/logo_insurances_wellcare.png" class="img-responsive img-rounded insurances_logo"> &nbsp;<img src="assets/img/logo_insurances_illinicare.png" alt="" class="img-responsive img-rounded insurances_logo"> &nbsp;<img src="assets/img/logo_insurances_harmony.png" alt="" class="img-responsive img-rounded insurances_logo">
+
+				        </div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-left">
+								Copyright &copy; 2015, MedPro Health Providers. Designed by <a href="http://dengbalaga.github.io" rel="designer">Dengbalaga</a> 
+							</p>
+						</div>
+					</div>
+
+
+				<div class="col-md-6 widget">
+						<div class="widget-body">
+							<!--<p class="simplenav">
+								<a href="#">Home</a> | 
+								<a href="about.html">About</a> |
+								<a href="sidebar-right.html">Sidebar</a> |
+								<a href="contact.html">Contact</a> |
+								<b><a href="signup.html">Sign up</a></b>
+							</p>-->
+                            <p class="text-right"><a href="#">Back to top</a></p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>

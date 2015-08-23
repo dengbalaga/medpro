@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1, h2,h3 {
+	font-weight:300;
+}
+p {
+font-weight:300;	
+}
+
+	.main-text
+{
+    position: absolute;
+    top: 120px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+.medpro_services {
+/*	background-color:#f5f5f5;*/
+	padding-top:40px;
+	padding-bottom:40px;	
+}
+.medpro_services_heading {
+  font-weight: 300;
+  line-height: 1;
+/*  letter-spacing: -1px;*/
+}
+
+.divider {
+  width:400px;
+  margin:0 auto;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.divider_long {
+/*  width:400px;*/
+  margin:0 auto;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+/*  font-weight: 300;*/
+  line-height: 1;
+  letter-spacing: -1px;
+  font-size:34px;
+  font-weight:500;
+}
+
+
+.navbar {
+	background-color:#00705d;
+	color:white;
+}
+/* navbar */
+.navbar-default {
+    background-color: #00705d;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #00342d;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.medpro_quote {
+	font-weight:300;
+	font-size:16px;
+	width:60%;	
+	
+}
+
+
+.medpro_carousel {
+	margin-top:50px;
+}
+
+.color_green {
+	color:#00705d;
+}
+
+label {
+	margin-top:12px;
+}
+
+.signin_button {
+padding:8px !important;
+margin-top:6px;
+}
+
+
+
+
+
+/* Footer */
+.footer1 { background: #00342d; padding: 30px 0 0 0; font-size: 12px; color: #999; }
+	.footer1 a { color: #ccc; }
+		.footer1 a:hover {color: #fff; }
+	.footer1 .widget { margin-bottom:30px; }		
+	.footer1 .widget-title { font-size: 17px; font-weight: bold; color: #ccc; margin: 0 0 20px; }
+	.footer1 .entry-meta { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin: 0 0 35px 0; padding: 2px 0; color: #888888; font-size: 12px; font-size: 0.75rem; }
+		.footer1 .entry-meta a { color: #333333; }
+		.footer1 .entry-meta .meta-in { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px 0; }
+	.follow-me-icons { font-size:30px; }		
+		.follow-me-icons i { float:left; margin:0 10px 0 0; }		
+
+.footer2 { background: #001f1a; padding: 15px 0; color: #777; font-size: 12px; }
+	.footer2 a { color: #aaa; }
+		.footer2 a:hover { color: #fff; }
+		.footer2 p { margin: 0; }
+
+.insurances_logo {
+	height:40px;
+	display:inline;
+	margin-bottom:12px;
+}

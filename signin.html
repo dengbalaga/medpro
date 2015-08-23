@@ -1,0 +1,293 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>MedPro Health Providers - The Weekend Admission Specialists</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+ 
+    <link href="assets/css/style_medpro.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+
+
+<script>
+function changeTextBox()
+{
+      var val=$('#position_applied').val();
+      //alert(val);
+
+      if(val==='Others')
+      {
+         $('#position_other').removeAttr("disabled");              
+      }
+      else{
+		  $('#position_other').prop('disabled', true);
+		  $('#position_other').val("");
+	  }
+		
+}
+
+</script>
+ 
+
+
+    
+</head>
+<body>
+
+  
+<!-- navbar -->  
+<div class="medpro_navbar">
+<div class="container">
+<nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom:0px;">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="padding-top:8px;"><img src="assets/img/medpro_logo_white.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+       <li><a href="about.html">About</a></li>
+<!--        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>-->
+      <li><a href="jobs.html">Find Jobs</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+	  <li class="active"><a class="btn signin_button" href="signin.html">SIGN IN / SIGN UP</a></li>
+      </ul>
+<!--      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>-->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div>
+</div> 
+<!-- /navbar -->
+
+
+
+
+    <div class="container">
+
+
+        <div class="row" style="margin-top:24px;">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Sign in
+                    <!--<small>Work with Us</small>-->
+                </h1>
+<!--                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Find Jobs</li>
+                </ol>-->
+            </div>
+
+        </div>
+				
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h3 class="thin text-center">Sign in to your account</h3>
+							<p class="text-center text-muted">Lorem ipsum dolor sit amet, <a href="signup.html">Register</a> adipisicing elit. Quo nulla quibusdam cum doloremque incidunt nemo sunt a tenetur omnis odio. </p>
+							<hr>
+							
+							<form>
+								<div class="top-margin">
+									<label>Username/Email <span class="text-danger">*</span></label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="top-margin">
+									<label>Password <span class="text-danger">*</span></label>
+									<input type="password" class="form-control">
+								</div>
+
+								<hr>
+
+								<div class="row">
+									<div class="col-lg-8">
+										<b><a href="">Forgot password?</a></b>
+									</div>
+									<div class="col-lg-4 text-right">
+										<button class="btn btn-warning" type="submit">Sign in</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+
+
+
+        <div class="row">
+            <p>&nbsp;</p>
+        </div>
+                <div class="row">
+            <p>&nbsp;</p>
+        </div>
+	
+
+    </div><!-- /CONTAINER -->
+
+
+
+
+
+
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>MedPro Health Providers, LLC<br>
+                            (708) 240-8088<br>
+								<a href="mailto:#">hq@medprohealthproviders.com</a><br>
+								<br>
+								16325 South Harlem Avenue Suite 350<br>
+Tinley Park, IL 60477 
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow Us</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+<!--								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>-->
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Insurances We Take</h3>
+						<div class="widget-body">
+                        
+                        <img src="assets/img/logo_insurances_nqa.png" class="img-responsive img-rounded insurances_logo"> &nbsp;			
+                        <img src="assets/img/logo_insurances_bbb.png" class="img-responsive insurances_logo">&nbsp; 
+                        <img src="assets/img/logo_insurances_wellcare.png" class="img-responsive img-rounded insurances_logo"> &nbsp;<img src="assets/img/logo_insurances_illinicare.png" alt="" class="img-responsive img-rounded insurances_logo"> &nbsp;<img src="assets/img/logo_insurances_harmony.png" alt="" class="img-responsive img-rounded insurances_logo">
+
+				        </div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-left">
+								Copyright &copy; 2015, MedPro Health Providers. Designed by <a href="http://dengbalaga.github.io" rel="designer">Dengbalaga</a> 
+							</p>
+						</div>
+					</div>
+
+
+				<div class="col-md-6 widget">
+						<div class="widget-body">
+							<!--<p class="simplenav">
+								<a href="#">Home</a> | 
+								<a href="about.html">About</a> |
+								<a href="sidebar-right.html">Sidebar</a> |
+								<a href="contact.html">Contact</a> |
+								<b><a href="signup.html">Sign up</a></b>
+							</p>-->
+                            <p class="text-right"><a href="#">Back to top</a></p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html>
